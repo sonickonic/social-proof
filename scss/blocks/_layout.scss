@@ -1,6 +1,6 @@
 .body {
-  background-image: url(../../images/bg-pattern-top-mobile.svg),
-    url(../../images/bg-pattern-bottom-mobile.svg);
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-mobile.svg);
   background-repeat: no-repeat;
   background-position: top right, bottom;
   background-size: 100% 29.9rem, 100% 50.3rem;
@@ -12,8 +12,8 @@
 
 @include screen-m {
   .body {
-    background-image: url(../../images/bg-pattern-top-desktop.svg),
-      url(../../images/bg-pattern-bottom-desktop.svg);
+    background-image: url(../images/bg-pattern-top-desktop.svg),
+      url(../images/bg-pattern-bottom-desktop.svg);
     background-position: top left, bottom right;
     background-size: auto;
   }

@@ -1,0 +1,25 @@
+{
+  "name": "social-proof",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonickonic/social-proof.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonickonic/social-proof/issues"
+  },
+  "homepage": "https://github.com/sonickonic/social-proof#readme",
+  "dependencies": {
+    "animejs": "^3.2.0"
+  },
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
