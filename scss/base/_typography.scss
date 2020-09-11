@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  font-family: "Spartan", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.7;
+}
+
+.header {
+  text-align: center;
+  letter-spacing: -0.03em;
+
+  &__heading {
+    color: $dark-magenta;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 1;
+  }
+
+  &__description {
+    color: $grayish-magenta;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+.rating {
+  &__text {
+    color: $dark-magenta;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+}
+
+.card {
+  &__description {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    letter-spacing: -0.06em;
+  }
+  &__header {
+    &-heading {
+      font-size: 1.4rem;
+
+      &--lighter {
+        color: $pink;
+      }
+    }
+  }
+}

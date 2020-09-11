@@ -1,0 +1,24 @@
+.card {
+  color: $white;
+  background-color: $dark-magenta;
+  margin-bottom: 1.6rem;
+  border-radius: 0.8rem;
+  padding: 3.6rem 3.2rem;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.7rem;
+
+    &-container {
+      line-height: 1.333;
+      margin-left: 2.2rem;
+    }
+
+    &-image {
+      width: 4rem;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+}

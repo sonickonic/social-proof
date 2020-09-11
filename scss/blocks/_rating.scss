@@ -1,0 +1,10 @@
+.rating {
+  background-color: $light-magenta;
+  border-radius: 0.8rem;
+  margin-bottom: 1.4rem;
+  padding: 1.6rem;
+
+  &__container {
+    letter-spacing: 0.25em;
+  }
+}
