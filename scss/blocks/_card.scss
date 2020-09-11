@@ -1,9 +1,18 @@
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
   color: $white;
   background-color: $dark-magenta;
   margin-bottom: 1.6rem;
   border-radius: 0.8rem;
   padding: 3.6rem 3.2rem;
+  width: 100%;
+  max-width: 35rem;
 
   &__header {
     display: flex;
@@ -20,5 +29,45 @@
       height: 100%;
       border-radius: 50%;
     }
+  }
+}
+
+@include screen-s {
+  .card {
+    &:first-child {
+      align-self: flex-start;
+    }
+
+    &:last-child {
+      align-self: flex-end;
+    }
+  }
+}
+
+@include screen-m {
+  .main {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card {
+    &:first-child {
+      margin-right: 3rem;
+    }
+
+    &:last-child {
+      align-self: flex-end;
+      margin-left: 3rem;
+    }
+  }
+}
+
+@include screen-xl {
+  .main {
+    height: 26.5rem;
+  }
+
+  .card {
+    margin-bottom: 0;
   }
 }

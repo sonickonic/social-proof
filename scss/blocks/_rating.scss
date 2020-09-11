@@ -3,8 +3,33 @@
   border-radius: 0.8rem;
   margin-bottom: 1.4rem;
   padding: 1.6rem;
+  width: 100%;
+  max-width: 44.5rem;
 
   &__container {
     letter-spacing: 0.25em;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@include screen-s {
+  .rating {
+    display: flex;
+    padding: 1.6rem 3rem;
+
+    &:first-child {
+      align-self: flex-start;
+    }
+
+    &:last-child {
+      align-self: flex-end;
+    }
+
+    &__text {
+      margin-left: 3rem;
+    }
   }
 }
